@@ -1,6 +1,6 @@
 {
   "name": "codek_sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -16,6 +16,7 @@
     "CODEk_SDK",
     "web3_Integration"
   ],
+  "transformIgnorePatterns": ["node_modules/(?!axios)/"],
   "author": "HEMAKUMAR",
   "license": "ISC",
   "dependencies": {

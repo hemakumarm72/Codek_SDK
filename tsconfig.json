@@ -74,7 +74,4 @@
   "exclude": [
     "dist",
   ],
-  "transformIgnorePatterns": [
-    "node_modules/(?!axios)/"
-  ]
 }
