@@ -1,16 +1,3 @@
-# CodeK SDK
-
-This SDK provides functionalities to interact with the CodeK API.
-
-## Installation
-
-To use the CodeK SDK in your project, install it via npm:
-
-```bash
-npm install codek-sdk
-```
-
-```js
 import { CodeK } from '.';
 
 const connect = new CodeK({
@@ -28,5 +15,3 @@ const connect = new CodeK({
   });
   console.log(result1);
 })();
-
-```
