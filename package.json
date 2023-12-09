@@ -2,10 +2,11 @@
   "name": "codek_sdk",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "prepare": "npm run build",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "ts-node testing/app.ts"
   },
   "keywords": [
     "codeK",
