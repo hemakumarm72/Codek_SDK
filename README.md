@@ -11,7 +11,7 @@ npm install codek-sdk
 ```
 
 ```js
-import { CodeK } from '.';
+import { CodeK } from 'codek_sdk';
 
 const connect = new CodeK({
   ProjectId: '6dd3a52d-93e5-4b7a-8388-0ba0c9602e3a',
