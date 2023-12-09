@@ -8,6 +8,7 @@
     "build": "tsc",
     "test": "ts-node testing/app.ts"
   },
+  "repository":"https://github.com/hemakumarm72/Codek_SDK",
   "keywords": [
     "codeK",
     "codeK_sdk",
