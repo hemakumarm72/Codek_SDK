@@ -18,9 +18,14 @@ const connect = new CodeK({
 });
 
 (async () => {
-  const result = await connect.getPullAll({ type: 'opened' });
+  const result = await connect.getPullAll({ 
+		type: 'opened' 
+	});
   console.log(result);
-  const result1 = await connect.getPullByWallet({ walletAddress: 'sdfsdg', type: 'opened' });
+  const result1 = await connect.getPullByWallet({ 
+		walletAddress: 'sdfsdg', 
+  	type: 'opened'
+  });
   console.log(result1);
 })();
 ```
